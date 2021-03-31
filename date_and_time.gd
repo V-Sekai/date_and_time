@@ -1,3 +1,4 @@
+@tool
 const SECONDS_PER_DAY = 86400
 
 const MERIDIEM_ANTE = "am"
