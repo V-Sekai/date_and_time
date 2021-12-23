@@ -4,7 +4,7 @@ const SECONDS_PER_DAY = 86400
 const MERIDIEM_ANTE = "am"
 const MERIDIEM_POST = "pm"
 
-class DateAndTime extends Reference:
+class DateAndTime extends RefCounted:
 	var seconds: int = 0
 	var minutes: int = 0
 	var hours: int = 0
